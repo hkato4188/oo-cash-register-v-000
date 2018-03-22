@@ -9,11 +9,11 @@ class CashRegister
     @discount = discount
   end
 
-  def self.add_item(title, price, quantity=1)
+  def add_item(title, price, quantity=1)
     self.total += price * quantity
   end
 
-  def self.apply_discount
+  def apply_discount
     if discount == 0
       return "There is no discount to apply."
     else
@@ -22,8 +22,6 @@ class CashRegister
     end
   end
 
-  # def self.items
-  # 
-  # end
+
 
 end
