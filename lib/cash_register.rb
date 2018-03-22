@@ -2,11 +2,7 @@ require 'pry'
 
 class CashRegister
 
-  attr_reader :total
-
-  def self.total(total)
-    @total = total
-  end
+  attr_accessor :total
   
   def initialize(input)
     @total = 0
