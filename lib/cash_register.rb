@@ -15,7 +15,7 @@ class CashRegister
 
   def apply_discount
 binding.pry
-    self.total = total * ((discount.to_f / 100) + 1)
+    self.total = total - ((discount.to_f / 100) + 1)
   end
 
 end
