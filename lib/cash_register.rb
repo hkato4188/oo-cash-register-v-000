@@ -6,7 +6,8 @@ class CashRegister
 
   def self.total(total)
     @total = total
-
+  end
+  
   def initialize(input)
     @total = 0
   end
