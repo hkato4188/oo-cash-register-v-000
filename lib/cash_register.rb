@@ -10,7 +10,6 @@ class CashRegister
   end
 
   def self.add_item(title, price, quantity=1)
-binding.pry
     self.total += price * quantity
   end
 
