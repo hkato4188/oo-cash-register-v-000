@@ -1,4 +1,4 @@
-binding.pry
+require 'pry'
 
 describe 'CashRegister' do
   let(:cash_register) { CashRegister.new }
